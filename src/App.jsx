@@ -4,7 +4,7 @@ import Listitem from './Listitem'
 
 
 const Card = () => {
-    let [task,setTask]= useState();
+    let [task,setTask]= useState("");
     let [tasklist,setTaskList] = useState([]);
     const stopdfault = (events) =>{
         events.preventDefault();
@@ -14,9 +14,13 @@ const Card = () => {
         setTask(value)
     }
     const listoftodo = () =>{
-        setTaskList((olddata)=>{
-            return [...olddata,task]
-        })
+        if(task!==""){
+            setTaskList((olddata)=>{
+                return [...olddata,task]
+            })
+        }
+       
+        
         setTask("");
     }
     const deletetask = (id) => {
