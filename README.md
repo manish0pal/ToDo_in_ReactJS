@@ -1,8 +1,9 @@
 # Getting Started with Create React Todo App by Manish
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React App with Awesome Glass Card UI
+![todo](./todoui.png)
 
-## Available Scripts
+ # Available Scripts
 
 In the project directory, you can run:
 
@@ -29,5 +30,4 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## A Simple Look of My Todo React App
-![todo](./todoui.png)
+
